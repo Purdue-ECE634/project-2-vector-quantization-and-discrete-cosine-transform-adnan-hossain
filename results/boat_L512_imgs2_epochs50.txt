@@ -1,0 +1,6 @@
+Num training images = 2
+Codebook size = 512
+Num epochs trained = 50
+PSNR of quantized image with respect to original image: 27.88362133190948
+MS-SSIM of the quantized image relative to its original image: 0.546288992596187
+Training time per epoch: 137.71285400920445 seconds
