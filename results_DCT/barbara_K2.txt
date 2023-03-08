@@ -1,0 +1,2 @@
+PSNR of aaproximate image with respect to original image: 22.167813930509627
+MS-SSIM of approximate image relative to its original image: 0.3530758626396344
