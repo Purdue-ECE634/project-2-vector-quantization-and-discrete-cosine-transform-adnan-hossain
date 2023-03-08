@@ -1,7 +1,8 @@
 # Project 2: Vector Quantization and Discrete Cosine Transform
-In this project, we will implement two lossy compression methods for image using vector quantization and transform coding. Write a clear detailed report of your findings. 
 
-Go to the end of this document to get information on how to run the code
+## Go to the end of this document to get information on how to run the code
+
+In this project, we will implement two lossy compression methods for image using vector quantization and transform coding. Write a clear detailed report of your findings. 
 
 NOTE: Submit your program source code on GitHub Classroom, and a project report on Gradescope.
 
