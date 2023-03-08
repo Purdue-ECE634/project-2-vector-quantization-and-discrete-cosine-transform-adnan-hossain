@@ -1,6 +1,8 @@
 # Project 2: Vector Quantization and Discrete Cosine Transform
 In this project, we will implement two lossy compression methods for image using vector quantization and transform coding. Write a clear detailed report of your findings. 
 
+Go to the end of this document to get information on how to run the code
+
 NOTE: Submit your program source code on GitHub Classroom, and a project report on Gradescope.
 
 ## Part 1 - Vector Quantization
@@ -17,3 +19,35 @@ Define how you characterize "satisfactory" reconstruction.
 **Note: For each part, you need to test your method on at least two different images.** 
 
 A collection of images are available on the course website [HERE] (https://engineering.purdue.edu/~zhu0/ece634/sample_image.zip). 
+
+## Running the code
+
+## Required packages
+numpy\
+scikit-image\
+scipy\
+opencv-python
+
+## Vector Quantization
+Place the evaluation image in the test folder (only one image)
+Run the script for training with 10 images: 
+```
+python vector_quantization.py --test_image_path <PATH TO EVAL IMAGE> --code_book_size L --num_epochs 50
+```
+Run the script for training with 1 images: 
+```
+python vector_quantization.py --train_dir test --test_image_path <PATH TO EVAL IMAGE> --code_book_size L --num_epochs 50
+```
+Run the script for evaluating using a saved codebook: 
+```
+python vector_quantization.py --test_image_path <PATH TO EVAL IMAGE> --code_book_size L --mode eval --checkpoint <PATH TO SAVED CODEBOOK>
+```
+Saved codebooks are in the codebooks directory
+
+## DCT
+Run the script 
+```
+python DCT.py --image_path <PATH TO IMAGE ON WHICH DCT IS PERFORMED> --DCT_coefficients K
+```
+
+K is the number of DCT coefficients used for image reconstruction
