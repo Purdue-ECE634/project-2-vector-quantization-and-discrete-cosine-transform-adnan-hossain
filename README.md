@@ -30,7 +30,8 @@ scipy\
 opencv-python
 
 ## Vector Quantization
-Place the evaluation image in the test folder (only one image)
+Place the evaluation image in the test folder (only one image).
+
 Run the script for training with 10 images: 
 ```
 python vector_quantization.py --test_image_path <PATH TO EVAL IMAGE> --code_book_size L --num_epochs 50
