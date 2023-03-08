@@ -53,3 +53,7 @@ python DCT.py --image_path <PATH TO IMAGE ON WHICH DCT IS PERFORMED> --DCT_coeff
 ```
 
 K is the number of DCT coefficients used for image reconstruction
+
+## References 
+1. https://www.math.cuhk.edu.hk/~lmlui/dct.pdf
+2. https://www.geeksforgeeks.org/discrete-cosine-transform-algorithm-program/
